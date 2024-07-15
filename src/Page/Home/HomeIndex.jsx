@@ -1,10 +1,11 @@
 import React from 'react';
-import Chart from './Chart/Chart';
+import ShowChart from './ShowChart/ShowChart';
 
 const HomeIndex = () => {
     return (
         <div>
-           <Chart/> 
+           <ShowChart/> 
+           
         </div>
     );
 };
