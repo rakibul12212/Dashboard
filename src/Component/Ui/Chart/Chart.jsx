@@ -23,10 +23,10 @@ const data = [
 
 const Chart = () => (
   <div className="w-full h-80">
-    <ResponsiveContainer>
+    <ResponsiveContainer width={500} height="100%">
       <AreaChart
         data={data}
-        margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
+        margin={{ top: 10, right: 10, left: 0, bottom: 0 }}
       >
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" interval={0} />

@@ -11,7 +11,7 @@ const DashboardTrafficSection = () => {
 
         <div className="flex justify-center items-center gap-x-8">
           <div>
-            <p className="text-4xl font-bold">33%</p>
+            <p className="text-2xl md:text-4xl font-bold">33%</p>
             <div className="flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -27,11 +27,11 @@ const DashboardTrafficSection = () => {
               >
                 <circle cx="8" cy="12.1" r="1" />
               </svg>
-              <p>Facebook</p>
+              <p className="text-sm">Facebook</p>
             </div>
           </div>
           <div>
-            <p className="text-4xl font-bold">55%</p>
+            <p className="text-2xl md:text-4xl font-bold">55%</p>
             <div className="flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -47,11 +47,11 @@ const DashboardTrafficSection = () => {
               >
                 <circle cx="8" cy="12.1" r="1" />
               </svg>
-              <p>Youtube</p>
+              <p className="text-sm">Youtube</p>
             </div>
           </div>
           <div>
-            <p className="text-4xl font-bold">12%</p>
+            <p className="text-2xl md:text-4xl font-bold">12%</p>
             <div className="flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ const DashboardTrafficSection = () => {
               >
                 <circle cx="8" cy="12.1" r="1" />
               </svg>
-              <p>Direct Searching</p>
+              <p className="text-sm">Direct Searching</p>
             </div>
           </div>
         </div>

@@ -37,7 +37,7 @@ const Sidebar = ({ sidebarToggle }) => {
       </div>
       <ul className="mt-3 text-white text-sm">
         <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
-          <a href="/home" className="px-3">
+          <a href="/" className="px-3">
             <FaHome className="inline-block w-4 h-4 mr-3 mb-1"></FaHome>
             Overview
           </a>
