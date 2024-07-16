@@ -23,7 +23,7 @@ const data = [
 
 const Chart = () => (
   <div className="w-full h-80">
-    <ResponsiveContainer width={500} height="100%">
+    <ResponsiveContainer width={500} height={300}>
       <AreaChart
         data={data}
         margin={{ top: 10, right: 10, left: 0, bottom: 0 }}
