@@ -14,16 +14,16 @@ const data = [
   { name: "", uv: 5, pv: 10 },
   { name: "Fev", uv: 8, pv: 10 },
   { name: "", uv: 5, pv: 12 },
-  { name: "Mar", uv: 17, pv: 20 },
+  { name: "Mar", uv: 17, pv: 19 },
   { name: "", uv: 15, pv: 10 },
-  { name: "Apr", uv: 25, pv: 28 },
-  { name: "", uv: 30, pv: 22 },
+  { name: "Apr", uv: 12, pv: 20 },
+  { name: "", uv: 20, pv: 22 },
   { name: "May", uv: 2, pv: 10 },
 ];
 
 const Chart = () => (
   <div className="chart-container">
-    <ResponsiveContainer width="100%" height={400}>
+    <ResponsiveContainer width={500} height={300}>
       <AreaChart
         data={data}
         margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
