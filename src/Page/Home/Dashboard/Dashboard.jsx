@@ -7,7 +7,7 @@ import DashboardTrafficSection from "./DashboardTrafficSection";
 // const Dashboard = () => {
 //   return (
 //     <div className="bg-slate-800 text-white p-4">
-      
+
 //       <div className="flex">
 //         <div>
 //           <div className="flex  items-center gap-4">
@@ -28,8 +28,9 @@ import DashboardTrafficSection from "./DashboardTrafficSection";
 
 // export default Dashboard;
 
-import React from 'react';
-import Nav from '../../../Component/Ui/Layout/Nav/Nav';
+import React from "react";
+import Nav from "../../../Component/Ui/Layout/Nav/Nav";
+import RecentActivity from "../RecentActivities/RecentActivity";
 
 const Dashboard = ({ sidebarToggle, setSidebarToggle }) => {
   return (
@@ -49,6 +50,9 @@ const Dashboard = ({ sidebarToggle, setSidebarToggle }) => {
           <div className="mx-4">
             <DashboardTrafficSection />
           </div>
+        </div>
+        <div className="border-2">
+          <RecentActivity />
         </div>
       </div>
     </div>

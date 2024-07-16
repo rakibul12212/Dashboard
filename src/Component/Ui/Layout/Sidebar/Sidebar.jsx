@@ -6,7 +6,6 @@ import {
   FaComment,
   FaEdit,
   FaEnvelope,
-  FaExclamation,
   FaExclamationTriangle,
   FaHome,
   FaImage,
@@ -26,7 +25,7 @@ const Sidebar = ({ sidebarToggle }) => {
     <div
       className={`${
         sidebarToggle ? "hidden" : "block"
-      } w-64 bg-slate-600 h-full fixed`}
+      } w-64 bg-slate-600 h-full fixed lg:block lg:w-1/5 xl:w-64`}
     >
       <div>
         <h1 className="text-2xl font-bold text-white flex justify-center items-center bg-gradient-to-r from-red-400 to-pink-600 py-1">
@@ -37,8 +36,8 @@ const Sidebar = ({ sidebarToggle }) => {
         </h1>
       </div>
       <ul className="mt-3 text-white text-sm">
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
-          <a href="#" className="px-3">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+          <a href="/home" className="px-3">
             <FaHome className="inline-block w-4 h-4 mr-3 mb-1"></FaHome>
             Overview
           </a>

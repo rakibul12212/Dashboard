@@ -9,7 +9,8 @@ const MainLayout = () => {
       <Sidebar sidebarToggle={sidebarToggle} />
       <Dashboard
         sidebarToggle={sidebarToggle}
-        setSidebarToggle={setSidebarToggle} />
+        setSidebarToggle={setSidebarToggle}
+      />
     </div>
   );
 };
