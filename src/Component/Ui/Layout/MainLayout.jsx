@@ -1,18 +1,17 @@
-import React from 'react';
-// import Chart from '../Chart/Chart';
-import Nav from './Nav/Nav';
-import Footer from './Footer/Footer';
-import { Outlet } from 'react-router-dom';
+import { useState } from "react";
+import Dashboard from "../../../Page/Home/Dashboard/Dashboard";
+import Sidebar from "./Sidebar/Sidebar";
 
 const MainLayout = () => {
-    return (
-        <div>
-            <Nav/>
-            <Outlet/>
-            <Footer/>
-           
-        </div>
-    );
+  const [sidebarToggle, setSidebarToggle] = useState(false);
+  return (
+    <div className="flex">
+      <Sidebar sidebarToggle={sidebarToggle} />
+      <Dashboard
+        sidebarToggle={sidebarToggle}
+        setSidebarToggle={setSidebarToggle} />
+    </div>
+  );
 };
 
 export default MainLayout;
