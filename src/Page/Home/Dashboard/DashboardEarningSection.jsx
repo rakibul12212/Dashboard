@@ -3,7 +3,7 @@ import React from "react";
 const DashboardEarningSection = () => {
   return (
     <div>
-      <div className="mt-4 bg-slate-600 text-white p-4 flex justify-between rounded">
+      <div className="mt-4 bg-slate-700 text-white p-4 flex justify-between rounded">
         <div className="flex  items-center gap-x-4">
           <div className="bg-pink-500 p-2 rounded-full">
             <svg

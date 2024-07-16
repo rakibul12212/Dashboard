@@ -3,7 +3,7 @@ import Chart from "../../../Component/Ui/Chart/Chart";
 
 const DashboardAreaChartSection = () => {
   return (
-    <div className="bg-slate-600 rounded">
+    <div className="bg-slate-700 rounded">
       <div id="line-chart-heading" className="flex justify-evenly mb-4">
         <div id="chart-heading-left">
           <div className="flex justify-around gap-x-4 text-sm">
