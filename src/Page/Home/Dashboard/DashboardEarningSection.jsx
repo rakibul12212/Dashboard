@@ -2,7 +2,7 @@ import React from "react";
 
 const DashboardEarningSection = () => {
   return (
-    <div className="mt-1  sm:flex sm:flex-wrap md:flex md:justify-between bg-slate-700 text-white p-4  rounded">
+    <div className="mt-1  sm:flex sm:flex-wrap md:flex md:justify-between bg-slate-800 text-white p-4  rounded">
       <div className="flex items-center gap-x-8 mb-4 sm:mb-0">
         <div className="bg-pink-500 p-2 rounded-full">
           <svg

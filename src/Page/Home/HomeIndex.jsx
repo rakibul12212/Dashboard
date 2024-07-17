@@ -7,7 +7,6 @@ const HomeIndex = () => {
   return (
     <div>
       <Dashboard />
-      
     </div>
   );
 };

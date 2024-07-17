@@ -9,7 +9,7 @@ const data02 = [
   { name: "Direct Search", value: 55 },
 ];
 
-const COLORS = ["#FF0000", "#9B59B6", "#3498DB"];
+const COLORS = ["#DB2424", "#9B59B6", "#3498DB"];
 
 const Pies = () => (
   <div className="w-full h-full">
@@ -22,6 +22,7 @@ const Pies = () => (
           cy="50%"
           outerRadius={40}
           fill="#808080"
+          stroke="none"
         />
         <Pie
           data={data02}
@@ -30,7 +31,7 @@ const Pies = () => (
           cy="50%"
           innerRadius={90}
           outerRadius={120}
-          fill="#82ca9d"
+          stroke="none"
         >
           {data02.map((entry, index) => (
             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />

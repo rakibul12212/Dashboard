@@ -3,7 +3,7 @@ import Pies from "../../../Component/Ui/Chart/Pies";
 
 const DashboardTrafficSection = () => {
   return (
-    <div className="bg-slate-700 rounded p-5">
+    <div className="bg-slate-800 rounded p-5">
       <div>
         <p className="text-lg md:text-xl font-semibold mb-4 text-white">
           Traffic

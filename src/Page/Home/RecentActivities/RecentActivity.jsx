@@ -2,7 +2,7 @@ import React from "react";
 
 const RecentActivity = () => {
   return (
-    <div className="bg-slate-700 p-5 w-full max-w-screen h-full mx-auto rounded">
+    <div className="bg-slate-800 p-5 w-full max-w-screen h-full mx-auto rounded">
       <p className="pb-10 font-bold text-lg lg:text-xl">Recent Activities</p>
       <div>
         <div className="flex flex-col gap-2 lg:flex-row lg:items-center lg:gap-x-5 pb-10">

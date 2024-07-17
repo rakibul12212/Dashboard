@@ -25,7 +25,7 @@ const Sidebar = ({ sidebarToggle }) => {
     <div
       className={`${
         sidebarToggle ? "hidden" : "block"
-      } w-64 bg-slate-700 h-full fixed lg:block lg:w-1/5 xl:w-64`}
+      } w-64 bg-slate-800 h-full fixed `}
     >
       <div>
         <h1 className="text-2xl font-bold text-white flex justify-center items-center bg-gradient-to-r from-red-400 to-pink-600 py-1">
@@ -42,115 +42,115 @@ const Sidebar = ({ sidebarToggle }) => {
             Overview
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaThLarge className="inline-block w-4 h-4 mr-3 mb-1"></FaThLarge>
             Widgets
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaThList className="inline-block w-4 h-4 mr-3 mb-1"></FaThList>
-            Ui Elements
+            UI Elements
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaMagnet className="inline-block w-4 h-4 mr-3 mb-1"></FaMagnet>
-            Advanced ui
+            Advanced UI
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaWpforms className="inline-block w-4 h-4 mr-3 mb-1"></FaWpforms>
             Form Elements
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaEdit className="inline-block w-4 h-4 mr-3 mb-1"></FaEdit>
             Editor
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaChartArea className="inline-block w-4 h-4 mr-3 mb-1"></FaChartArea>
             Charts
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaTable className="inline-block w-4 h-4 mr-3 mb-1"></FaTable>
             Tables
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaComment className="inline-block w-4 h-4 mr-3 mb-1"></FaComment>
             Popups
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaBell className="inline-block w-4 h-4 mr-3 mb-1"></FaBell>
             Notifications
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaBandcamp className="inline-block w-4 h-4 mr-3 mb-1"></FaBandcamp>
             Icons
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaMap className="inline-block w-4 h-4 mr-3 mb-1"></FaMap>
             Maps
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaUser className="inline-block w-4 h-4 mr-3 mb-1"></FaUser>
             User Pages
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaExclamationTriangle className="inline-block w-4 h-4 mr-3 mb-1"></FaExclamationTriangle>
             Error Pages
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaCartShopping className="inline-block w-4 h-4 mr-3 mb-1"></FaCartShopping>
             E-commerce
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaEnvelope className="inline-block w-4 h-4 mr-3 mb-1"></FaEnvelope>
             E-mail
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaCalendar className="inline-block w-4 h-4 mr-3 mb-1"></FaCalendar>
             Calendar
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaList className="inline-block w-4 h-4 mr-3 mb-1"></FaList>
-            Todo list
+            Todo List
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaImage className="inline-block w-4 h-4 mr-3 mb-1"></FaImage>
             Gallery
           </a>
         </li>
-        <li className="mb-1   hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
+        <li className="mb-1 hover:text-green-300 hover:border-l-4 hover:border-yellow-500 pt-1">
           <a href="#" className="px-3">
             <FaFilePdf className="inline-block w-4 h-4 mr-3 mb-1"></FaFilePdf>
             Documents

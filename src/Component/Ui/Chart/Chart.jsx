@@ -37,14 +37,14 @@ const Chart = () => (
           dataKey="uv"
           stackId="1"
           stroke="#8300E3"
-          fill="#B280D6"
+          fill="#E1ABFC"
         />
         <Area
           type="monotone"
           dataKey="pv"
           stackId="1"
           stroke="#F56C23"
-          fill="#FAA437"
+          fill="#F6A971"
         />
       </AreaChart>
     </ResponsiveContainer>
