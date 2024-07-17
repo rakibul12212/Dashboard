@@ -37,7 +37,7 @@ const DashboardAreaChartSection = () => {
         </div>
       </div>
 
-      <div className=" h-full">
+      <div>
         <Chart />
       </div>
     </div>
