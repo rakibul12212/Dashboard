@@ -22,8 +22,8 @@ const data = [
 ];
 
 const Chart = () => (
-  <div className="w-full h-80">
-    <ResponsiveContainer width={500} height={300}>
+  <div className="w-full h-80 md:h-72 lg:h-120">
+    <ResponsiveContainer width="100%" height="100%">
       <AreaChart
         data={data}
         margin={{ top: 10, right: 10, left: 0, bottom: 0 }}

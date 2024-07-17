@@ -13,24 +13,24 @@ const Dashboard = ({ sidebarToggle, setSidebarToggle }) => {
     <div className={`${sidebarToggle ? "" : "ml-64"} w-full`}>
       <Nav sidebarToggle={sidebarToggle} setSidebarToggle={setSidebarToggle} />
       <div className="bg-slate-800 text-white p-4">
-        <div className="flex flex-col lg:flex-row">
-          <div className="lg:w-2/3">
-            <div className="flex flex-col sm:flex-row">
-              <DashboardOverviewSection className="mb-4 sm:mb-0 sm:w-1/2" />
-              <DashboardAreaChartSection className="sm:w-1/2" />
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div className="lg:col-span-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <DashboardOverviewSection />
+              <DashboardAreaChartSection />
             </div>
             <div className="mt-4">
               <DashboardEarningSection />
             </div>
           </div>
-          <div className="lg:w-1/3 h-full mt-4 lg:mt-0">
+          <div className="lg:col-span-1">
             <DashboardTrafficSection />
           </div>
         </div>
-        <div>
+        <div className="mt-4">
           <ShortOverview />
         </div>
-        <div className="flex justify-evenly mt-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
           <RecentActivity />
           <OrderStatus />
         </div>

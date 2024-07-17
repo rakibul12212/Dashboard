@@ -2,8 +2,8 @@ import React from "react";
 
 const DashboardEarningSection = () => {
   return (
-    <div className="mt-4 mr-4 sm:flex sm:flex-wrap md:flex md:justify-between bg-slate-700 text-white p-4 rounded">
-      <div className="flex items-center gap-x-4 mb-4 sm:mb-0">
+    <div className="mt-1  sm:flex sm:flex-wrap md:flex md:justify-between bg-slate-700 text-white p-4  rounded">
+      <div className="flex items-center gap-x-8 mb-4 sm:mb-0">
         <div className="bg-pink-500 p-2 rounded-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ const DashboardEarningSection = () => {
           <p className="text-sm font-semibold">$3,567.80</p>
         </div>
       </div>
-      <div className="flex items-center gap-x-4 mb-4 sm:mb-0">
+      <div className="flex items-center gap-x-8 mb-4 sm:mb-0">
         <div className="bg-purple-500 p-2 rounded-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ const DashboardEarningSection = () => {
           <p className="text-sm font-semibold">$1,589.53</p>
         </div>
       </div>
-      <div className="flex items-center gap-x-4 mb-4 sm:mb-0">
+      <div className="flex items-center gap-x-8 mb-4 sm:mb-0">
         <div className="bg-purple-500 p-2 rounded-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ const DashboardEarningSection = () => {
           <p className="text-sm font-semibold">$2,651.50</p>
         </div>
       </div>
-      <div className="flex items-center gap-x-4">
+      <div className="flex items-center gap-x-8">
         <div className="bg-sky-500 p-2 rounded-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"
