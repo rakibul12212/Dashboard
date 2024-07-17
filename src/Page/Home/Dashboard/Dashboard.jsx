@@ -30,9 +30,13 @@ const Dashboard = ({ sidebarToggle, setSidebarToggle }) => {
         <div className="mt-4">
           <ShortOverview />
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
-          <RecentActivity />
-          <OrderStatus />
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-4">
+          <div className="lg:col-span-1">
+            <RecentActivity />
+          </div>
+          <div className="lg:col-span-3">
+            <OrderStatus />
+          </div>
         </div>
       </div>
     </div>
