@@ -11,8 +11,8 @@ import {
 
 const OrderStatus = () => {
   return (
-    <div className=" px-4">
-      <div className="bg-slate-700 p-4">
+    <div className="container  px-4">
+      <div className="bg-slate-700 p-4 rounded">
         <div className="ps-4 pb-4">
           <p className="font-bold text-lg">Order Status</p>
           <p className="text-gray-400 text-sm md:text-base">

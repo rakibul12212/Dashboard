@@ -25,7 +25,7 @@ const Sidebar = ({ sidebarToggle }) => {
     <div
       className={`${
         sidebarToggle ? "hidden" : "block"
-      } w-64 bg-slate-600 h-full fixed lg:block lg:w-1/5 xl:w-64`}
+      } w-64 bg-slate-700 h-full fixed lg:block lg:w-1/5 xl:w-64`}
     >
       <div>
         <h1 className="text-2xl font-bold text-white flex justify-center items-center bg-gradient-to-r from-red-400 to-pink-600 py-1">

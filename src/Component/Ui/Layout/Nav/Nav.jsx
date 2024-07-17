@@ -3,7 +3,7 @@ import { FaBars, FaBell, FaCog, FaEnvelope, FaUser } from "react-icons/fa";
 
 const Nav = ({sidebarToggle,setSidebarToggle}) => {
   return (
-    <div className="bg-slate-600 px-4 py-3 flex justify-between  ">
+    <div className="bg-slate-700 px-4 py-3 flex justify-between  ">
       <div className="flex items-center text-xl">
         <FaBars className="text-white me-4 cursor-pointer"
           onClick={() => setSidebarToggle(!sidebarToggle)}></FaBars>
