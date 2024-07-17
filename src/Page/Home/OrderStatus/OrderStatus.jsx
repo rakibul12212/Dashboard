@@ -10,7 +10,7 @@ import {
 
 const OrderStatus = () => {
   return (
-    <div className="container  px-4">
+    <div className="">
       <div className="bg-slate-700 p-4 rounded">
         <div className="ps-4 pb-4">
           <p className="font-bold text-lg">Order Status</p>
