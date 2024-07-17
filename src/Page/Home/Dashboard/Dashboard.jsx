@@ -5,6 +5,7 @@ import DashboardEarningSection from "./DashboardEarningSection";
 import DashboardOverviewSection from "./DashboardOverviewSection";
 import DashboardTrafficSection from "./DashboardTrafficSection";
 import RecentActivity from "../RecentActivities/RecentActivity";
+import OrderStatus from "../OrderStatus/OrderStatus";
 
 const Dashboard = ({ sidebarToggle, setSidebarToggle }) => {
   return (
@@ -25,8 +26,9 @@ const Dashboard = ({ sidebarToggle, setSidebarToggle }) => {
             <DashboardTrafficSection />
           </div>
         </div>
-        <div className="border-2 mt-4">
+        <div className="flex justify-evenly mt-4">
           <RecentActivity />
+          <OrderStatus />
         </div>
       </div>
     </div>
