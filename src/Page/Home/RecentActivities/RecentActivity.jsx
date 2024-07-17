@@ -3,7 +3,7 @@ import React from "react";
 const RecentActivity = () => {
   return (
     <div className="bg-slate-600 p-5 mt-5">
-      <p className="pb-5">Recent Activities</p>
+      <p className="pb-5 font-bold">Recent Activities</p>
       <div>
         <div className="flex items-center gap-x-6 pb-5">
           <div>
